@@ -109,7 +109,6 @@ MARKDOWN_DEUX_STYLES = {
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": (
         'rest_framework.renderers.JSONRenderer',
-        'rest_framework.renderers.BrowsableAPIRenderer',
         'resources.renderers.WookieeRenderer'
     ),
     'PAGINATE_BY': 10,
